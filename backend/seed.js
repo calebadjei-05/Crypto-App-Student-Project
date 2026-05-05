@@ -15,6 +15,8 @@ const cryptos = [
     price: 67000,
     change24h: 2.45,
     image: "https://assets.coingecko.com/coins/images/1/large/bitcoin.png",
+    category: "tradable",
+    isNew: false,
   },
   {
     name: "Ethereum",
@@ -22,6 +24,8 @@ const cryptos = [
     price: 3800,
     change24h: 1.83,
     image: "https://assets.coingecko.com/coins/images/279/large/ethereum.png",
+    category: "tradable",
+    isNew: false,
   },
   {
     name: "Solana",
@@ -29,6 +33,8 @@ const cryptos = [
     price: 185,
     change24h: 5.21,
     image: "https://assets.coingecko.com/coins/images/4128/large/solana.png",
+    category: "gainers",
+    isNew: false,
   },
   {
     name: "Cardano",
@@ -36,6 +42,8 @@ const cryptos = [
     price: 0.65,
     change24h: -1.23,
     image: "https://assets.coingecko.com/coins/images/975/large/cardano.png",
+    category: "tradable",
+    isNew: false,
   },
   {
     name: "Dogecoin",
@@ -43,6 +51,8 @@ const cryptos = [
     price: 0.18,
     change24h: 8.92,
     image: "https://assets.coingecko.com/coins/images/5/large/dogecoin.png",
+    category: "gainers",
+    isNew: false,
   },
   {
     name: "Ripple",
@@ -50,6 +60,8 @@ const cryptos = [
     price: 0.62,
     change24h: -0.54,
     image: "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png",
+    category: "tradable",
+    isNew: false,
   },
   {
     name: "Polkadot",
@@ -57,6 +69,8 @@ const cryptos = [
     price: 9.2,
     change24h: 3.17,
     image: "https://assets.coingecko.com/coins/images/12171/large/polkadot.png",
+    category: "tradable",
+    isNew: false,
   },
   {
     name: "Avalanche",
@@ -64,6 +78,8 @@ const cryptos = [
     price: 42.5,
     change24h: 6.88,
     image: "https://assets.coingecko.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png",
+    category: "gainers",
+    isNew: false,
   },
   {
     name: "Chainlink",
@@ -71,6 +87,8 @@ const cryptos = [
     price: 18.3,
     change24h: -2.1,
     image: "https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png",
+    category: "tradable",
+    isNew: false,
   },
   {
     name: "Litecoin",
@@ -78,6 +96,8 @@ const cryptos = [
     price: 95.4,
     change24h: 0.73,
     image: "https://assets.coingecko.com/coins/images/2/large/litecoin.png",
+    category: "tradable",
+    isNew: false,
   },
 ];
 
